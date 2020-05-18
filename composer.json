@@ -1,0 +1,23 @@
+{
+  "name": "lcfdev/linkerlib-install",
+  "description": "主要用于学习。注：授权协议没看过，随便写的一个",
+  "license": "Apache-2.0",
+  "type": "composer-plugin",
+  "authors": [
+    {
+      "name": "lcfdev",
+      "email": "lcf@jionx.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "linkerlib\\install\\": "src"
+    }
+  },
+  "require": {
+    "composer-plugin-api": "^1.0"
+  },
+  "extra": {
+    "class": "linkerlib\\install\\Plugin"
+  }
+}
