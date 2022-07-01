@@ -18,4 +18,14 @@ class Plugin implements PluginInterface
 
         $manager->addInstaller(new TemplateInstaller($io, $composer));
     }
+
+    public function deactivate(Composer $composer, IOInterface $io)
+    {
+
+    }
+
+    public function uninstall(Composer $composer, IOInterface $io)
+    {
+
+    }
 }
