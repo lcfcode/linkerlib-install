@@ -1,7 +1,7 @@
 {
   "name": "lcfdev/linkerlib-install",
-  "description": "主要用于学习。注：授权协议没看过，随便写的一个",
-  "license": "Apache-2.0",
+  "description": "linker的库安装插件",
+  "license": "LGPL-2.1",
   "type": "composer-plugin",
   "authors": [
     {
