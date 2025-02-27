@@ -1,0 +1,21 @@
+{
+  "name": "lcfdev/linkerlib-install",
+  "description": "linker的库安装插件",
+  "license": "LGPL-2.1",
+  "type": "composer-plugin",
+  "autoload": {
+    "psr-4": {
+      "linkerlib\\install\\": "src"
+    }
+  },
+  "require": {
+    "composer-plugin-api": "^2.0",
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "composer/composer": "^2.0"
+  },
+  "extra": {
+    "class": "linkerlib\\install\\Plugin"
+  }
+}
